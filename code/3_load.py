@@ -40,4 +40,20 @@ def upload_file(file_name, bucket_name, object_name=None):
     return True
 
 if __name__ == '__main__':
-    #TODO: Write your load code here (remove pass first)
+    # Define the bucket name
+    bucket_name = 'ist356dylanstafeil'
+
+    # List of files to upload
+    files_to_upload = [
+        'cache/survey_states_combined.csv',
+        'cache/annual_salary_adjusted_by_location_and_age.csv',
+        'cache/annual_salary_adjusted_by_location_and_education.csv'
+    ]
+
+    # Upload each file
+    for file_path in files_to_upload:
+        success = upload_file(file_path, bucket_name)
+        if success:
+            print(f"Successfully uploaded {file_path} to bucket {bucket_name}.")
+        else:
+            print(f"Failed to upload {file_path} to bucket {bucket_name}.")

@@ -14,6 +14,8 @@ survey_states_combined = survey_data.merge(states_data, left_on="If you're in th
 
 survey_states_combined['full_city'] = survey_states_combined['What city do you work in?'] + ', ' + survey_states_combined['Abbreviation'] + ', ' + survey_states_combined['country']
 
+survey_states_combined.to_csv('cache/survey_states_combined.csv')
+
 combined = survey_states_combined.merge(
     cost_of_living_data,
     left_on=['year', 'full_city'],
