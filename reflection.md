@@ -22,4 +22,4 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
-
+I learned how to use pandas and numpy, along with the cache, to create a data pipeline, and upload it to AWS. I had to refer to the solution a lot for the load.py part to upload to AWS, but otherwise, I was able to do everything fine.
