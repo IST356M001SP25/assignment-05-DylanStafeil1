@@ -22,4 +22,4 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
-This assignment helped me learn how to build a full ETL pipeline by breaking the work into clear steps of extraction, transformation, and loading. I especially improved at joining messy datasets and engineering new features to prepare structured reports for analysis.
+This assignment gave me valuable experience working with a real-world dataset and applying the full ETL pipeline—from extraction to transformation to loading into cloud storage. I learned how to clean and join data from multiple sources, engineer new columns for analysis, and build summary reports using pivot tables. It also introduced me to cloud-based object storage, which was a helpful new concept. Overall, it showed me how structured pipelines can make complex data workflows more manageable and reusable.
